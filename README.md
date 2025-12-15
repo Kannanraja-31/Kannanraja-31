@@ -1,16 +1,49 @@
-## Hi there 👋
+## Hi there I'm Kannan👋
+resource "personal" "info" {
 
-<!--
-**Kannanraja-31/Kannanraja-31** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  name = "Kannan R"
+  experience = "3+ years"
+  nationality = "Indian"
+  languages = ["English", "Tamil"]
+  occupation = "DevOps Engineer"
+  hobbies = ["Movies", "Playing cricket", "Hanging out with friends"]
 
-Here are some ideas to get you started:
+}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+resource "professional" "info" {
+  
+  # Core Skill Set
+  devops_tools = ["Git", "Jenkins", "Maven", "Jfrog", "Nginx", "Azure devops"]
+  cloud_providers = ["AWS", "Azure"]
+  infrastructure_as_code = ["Terraform"]
+  microservices_and_containers = ["Docker", "Kubernetes", "Helm"]
+
+  # Advanced Capabilities
+  scripting_languages = ["Shell Script", "Python Script", "YAML"]
+  monitoring_tools = ["Grafana", "Prometheus", "ELK/EFK", "checkmk"]
+  security_and_devsecops = ["ClamAV", "SonarQube", "Tenable"]
+  mlops_frameworks = ["DVC", "Azure ML Workspace"]
+  database_migration = ["AWS RDS", "Azure MySQL Flexible Server"]
+  configuration_management = ["Ansible"]
+
+  # Certifications
+  cloud_certifications = ["Azure Fundamentals (AZ-900)"]
+  iac_certifications   = ["HashiCorp Terraform Associate (003)"]
+
+}
+
+provider "social" {
+
+  linkedin = "www.linkedin.com/in/kannan-raja-devops"
+  github = "Kannanraja-31"
+  contact_number = "+91 6374492674"
+  email = "kannan.raja@outlook.in"
+}
+
+resource "fun_facts" "personal_life" {
+  
+  - "Passionate about continuous learning and exploring new DevOps tools."
+  - "Known for creative problem-solving and innovative automation solutions."
+  - "Enjoys collaborating with cross-functional teams and mentoring new DevOps enthusiasts."
+    
+}
