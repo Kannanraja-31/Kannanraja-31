@@ -12,18 +12,18 @@ resource "personal" "info" {
 
 resource "professional" "info" {
   
-  # Core Skill Set
+    # Core Skill Set
   devops_tools                 = ["Git", "Jenkins", "Maven", "Jfrog", "Nginx", "Azure devops"]
   cloud_providers              = ["AWS", "Azure"]
   infrastructure_as_code       = ["Terraform"]
   microservices_and_containers = ["Docker", "Kubernetes", "Helm"]
 
-  # On-Prem & Virtualization
+    # On-Prem & Virtualization
   on_prem_infrastructure       = ["Linux (RHEL/Ubuntu)", "Bare Metal Servers"]
   virtualization_platforms    = ["Proxmox VE", "VMware"]
   hybrid_connectivity          = ["VPN", "Private Networking", "Network Tunneling"]
 
-  # Advanced Capabilities
+    # Advanced Capabilities
   scripting_languages      = ["Shell Script", "Python Script", "YAML"]
   monitoring_tools         = ["Grafana", "Prometheus", "ELK/EFK", "checkmk"]
   security_and_devsecops   = ["ClamAV", "SonarQube", "Tenable"]
@@ -31,7 +31,7 @@ resource "professional" "info" {
   database_migration       = ["MYSQL", "ORACLE", "POSTGRESQL", "AWS RDS", "Azure MySQL Flexible Server"]
   configuration_management = ["Ansible"]
 
-  # Certifications
+    # Certifications
   cloud_certifications = ["Azure Fundamentals (AZ-900)"]
   iac_certifications   = ["HashiCorp Terraform Associate (003)"]
 
