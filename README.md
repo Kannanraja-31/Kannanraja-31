@@ -1,4 +1,5 @@
 ## Hi there I'm Kannan👋
+```hcl
 resource "personal" "info" {
 
   name        = "Kannan R"
