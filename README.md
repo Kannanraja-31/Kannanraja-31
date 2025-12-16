@@ -6,7 +6,7 @@ resource "personal" "info" {
   experience  = "3+ years"
   nationality = "Indian"
   languages   = ["English", "Tamil"]
-  occupation  = "DevOps Engineer"
+  occupation  = "DevOps & Cloud Engineer"
   hobbies     = ["Movies", "Playing cricket", "Hanging out with friends"]
 
 }
